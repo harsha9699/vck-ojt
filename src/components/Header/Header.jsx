@@ -50,13 +50,7 @@ const Header = () =>{
                         <Link to="/contact" className="nav-item" onClick={closeDrawer}>
                           Contact
                         </Link>
-                        <Link
-                                  to="/admissions"
-                                  className="nav-item btn primary-btn"
-                                  onClick={closeDrawer}
-                                >
-                                  Apply Now!
-                                </Link>
+                         <Link to ="/admission" className='nav-item btn primary-btn'>Apply Now!</Link>
                               </nav>
 
                 {isDrawerOpen && (
